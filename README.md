@@ -51,10 +51,20 @@ In this repository, I will try to maintain a list of the most common components 
   [2N3906 wikipedia](https://en.wikipedia.org/wiki/2N3906)<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/2N3906-D-1801672.pdf)
 
+* **BC547** - BJT, npn, noise figure 2 dB, 50V, 100mA, bandwidth 300MHz, 500mW.<br>
+  Terminating with A - beta 110 to 220, B - 200 to 450, C - 420 to 800.<br>
+  [Datasheet](https://pt.mouser.com/datasheet/2/308/BC550-D-1802078.pdf)
+
+* **BC557** - BJT, pnp, noise figure 2 dB, -50V, -100mA, bandwidth 150MHz, 500mW, complementary pair of BC547.<br>
+  Terminating with A - beta 110 to 220, B - 200 to 450, C - 420 to 800.<br>
+  [Datasheet](https://pt.mouser.com/datasheet/2/308/BC556BTA-D-1802030.pdf)
+
 * **BC549C** - BJT low noise, npn, high beta 420 to 800, noise figure 1.2 dB, 30V, 100mA, bandwidth 300MHz, 500mW.<br>
+  Terminating with A - beta 110 to 220, B - 200 to 450, C - 420 to 800.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/BC550-D-1802078.pdf)
 
 * **BC559C** - BJT low noise, pnp, beta 420 to 800, low noise, noise figure 1.2 dB, -30V, -100mA, bandwidth 150MHz, 500mW, complementary pair of BC549C.<br>
+  Terminating with A - beta 110 to 220, B - 200 to 450, C - 420 to 800.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/BC556BTA-D-1802030.pdf)
 
 * **BD135** - BJT, npn, beta 100, 45 V, 1.5 A, 1.25 W, audio amplifier.<br>
