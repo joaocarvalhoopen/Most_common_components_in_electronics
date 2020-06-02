@@ -60,7 +60,7 @@ In this repository, I will try to maintain a list of the most common components 
   [Datasheet](https://pt.mouser.com/datasheet/2/308/BC556BTA-D-1802030.pdf)
 
 * **BC549C** - BJT low noise, npn, high beta 420 to 800, noise figure 1.2 dB, 30V, 100mA, bandwidth 300MHz, 500mW.<br>
-  Terminating with x for each beta range: - 110 to 220, B - 200 to 450, C - 420 to 800.<br>
+  Terminating with x for each beta range: A - 110 to 220, B - 200 to 450, C - 420 to 800.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/BC550-D-1802078.pdf)
 
 * **BC559C** - BJT low noise, pnp, beta 420 to 800, low noise, noise figure 1.2 dB, -30V, -100mA, bandwidth 150MHz, 500mW, complementary pair of BC549C.<br>
