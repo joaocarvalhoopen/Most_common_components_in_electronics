@@ -4,7 +4,7 @@ A guide to the electronics adventurer!
 
 ## Description
 
-In this repository, I will try to maintain a list of the more common used components in electronics. Normally the ones that passed the test of time and that distinguished them self’s for having characteristics that are useful for a broad type of projects. The components should also be inexpensive and easy to get from several different sources. They show be on every electronics designer, engineer, technician or electronics hobbyist stock, near the workbench. They are divided by category, each principal characteristics are listed and a link to there datasheet.
+In this repository, I will try to maintain a list of the most common components in electronics. Specially, the ones that passed the test of time, the ones that distinguished them self’s by having characteristics that are useful in a broad range of projects. The components should also be inexpensive, available and easy to get from several sources. They should be on every electronics designer, engineer, technician or electronics hobbyist stock, near the workbench. I divided this list by category, each main characteristics, is listed and there is a link to the datasheet.
 
 # List of components
 
@@ -54,7 +54,7 @@ In this repository, I will try to maintain a list of the more common used compon
 * **BC549C** - BJT low noise, npn, high beta 420 to 800, noise figure 1.2 dB, 30V, 100mA.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/BC550-D-1802078.pdf)
 
-* **BC559C** - BJT low noise, pnp, beta 420 to 800, low noise, noise figure 1.2 dB, -30V, -100mA, bandwith 150MHz, 500mW. Complementary pair of BC549C.<br>
+* **BC559C** - BJT low noise, pnp, beta 420 to 800, low noise, noise figure 1.2 dB, -30V, -100mA, Bandwidth 150MHz, 500mW. Complementary pair of BC549C.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/BC556BTA-D-1802030.pdf)
 
 * **BD135** - BJT, npn, beta 100, 45 V, 1.5 A, 1.25 W, Audio Amplifier.<br>
@@ -69,7 +69,7 @@ In this repository, I will try to maintain a list of the more common used compon
 
 * **2N6027** - This is a replacement for the good old **2N26469**. <br> 
   **PUT - Programmable Unijunction Transistor**, 40 V, 300 mW.<br>
-  This is a component that has a "negative resistance" zone. The 2N2646 was used in oscillators with output of "low impedance", this is, only with one "transistor"you could make an oscillator that drives directly a speaker, with low power. <br>
+  This is a component that has a "negative resistance" zone. The 2N2646 was used in oscillators with output having "low impedance", that is, only with one "transistor", you could make an oscillator that drives directly a low power speaker. <br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/2N6027-D-1801510.pdf)
 
 * TODO: Add high power BJT's.
@@ -116,7 +116,7 @@ In this repository, I will try to maintain a list of the more common used compon
 
 ## OpAmps - Operational Amplifiers
 
-* **LM358** - Double, cheap, 3V to 36V, bandwith 1.2 MHz, Voffset 3mV, noise figure 40nV/sqrt Hz, not rail to rail.<br>
+* **LM358** - Double, cheap, 3V to 36V, Bandwidth 1.2 MHz, Voffset 3mV, noise figure 40nV/sqrt Hz, not rail to rail.<br>
   [Datasheet](http://www.ti.com/lit/ds/symlink/lm358.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1591004748869)
 
 * **TL072** - Double, JFET inputs, cheap, Low Total Harmonic Distortion 0.003%, Low noise 18 nV/sqrt Hz, not rail to rail, used in high quality audio.<br>
@@ -125,13 +125,13 @@ In this repository, I will try to maintain a list of the more common used compon
 * **NE5532** - Low noise, cheap, supply min +-5V to +-15V, not rail to rail, 10 MHz, Voffset 4mV, 5 nV/sqrt Hz, Low Total Harmonic Distortion, used in high quality audio.<br>
   [Datasheet](http://www.ti.com/lit/ds/symlink/ne5532a.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1591006447562)
 
-* **MCP6004-I-P** - Microchip, quad, cheap, Rail-to-Rail, Single Supply 3.3V to 5V, Bandwith 1MHz, offset voltage = 4.5 mV, noise figure 28nV/sqrt Hz.<br>
+* **MCP6004-I-P** - Microchip, quad, cheap, Rail-to-Rail, Single Supply 3.3V to 5V, Bandwidth 1MHz, offset voltage = 4.5 mV, noise figure 28nV/sqrt Hz.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/268/21733j-740845.pdf)
 
-* **MCP6024-E/P** - Microchip, quad, Rail-to-Rail, Single Supply 3.3V to 5V, Bandwith 10MHz, offset voltage = +-0.250 mV, Extended temperature, noise figure 8.7nV/sqrt Hz.<br>
+* **MCP6024-E/P** - Microchip, quad, Rail-to-Rail, Single Supply 3.3V to 5V, Bandwidth 10MHz, offset voltage = +-0.250 mV, Extended temperature, noise figure 8.7nV/sqrt Hz.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/268/21685b-25979.pdf)
 
-* **MCP6072T-E/SN** - Microchip, double, cheap, Bandwith 1.2 MHz, offset voltage =  150 uV, SOIC-8 SMD, 19nV/sqrt Hz.<br>
+* **MCP6072T-E/SN** - Microchip, double, cheap, Bandwidth 1.2 MHz, offset voltage =  150 uV, SOIC-8 SMD, 19nV/sqrt Hz.<br>
   [Datasheet](https://pt.mouser.com/ProductDetail/Microchip-Technology/MCP6072T-E-SN?qs=WqWCsLCZBkqxem6AyHcpJg%3D%3D)
  
 * **TC7650CPA** - Single, Single-Supply or Dual supply 5V, not rail to rail + 0.3V lower limit  - 0.3V upper limit, Zero offset Chopper Stabilized Operational Amplifier, Low Input  Noise offset Voltage: 2.0 uV pp BandWith 2MHz.<br>
@@ -194,10 +194,10 @@ In this repository, I will try to maintain a list of the more common used compon
 * **Ferrite bead 1-1624117-6**, 600R@100MHz +/-25% 200mA  package 0805
 
 ## Disclaimer
-Please always confirm the specifications of each part against the datasheet of the manufacturer of your part. I collect the characteristics of the parts with grate diligence, but O don't assume any responsibility for any error oe mistake that I could made in this listing. So always check your part specific datasheet before using the part.
+Please, before choosing a component or using it, always check the specifications of each part against the datasheet of the manufacturer of your specific part. I collect the characteristics of the parts with great diligence, but I don't assume any responsibility for any error or mistake that I could have made in this list. So always check your part specific datasheet before using the part.
 
 ## License
-This document is under the license Creative Common.
+This document is under the Creative Commons license.
 
 ## Have fun!
 Best regards, <br>
