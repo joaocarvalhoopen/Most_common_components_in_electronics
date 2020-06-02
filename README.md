@@ -4,34 +4,68 @@ A guide to the electronics adventurer!
 
 ## Description
 
-In this repository, I will try to maintain a list of the most common components in electronics. Specially, the ones that passed the test of time, the ones that distinguished them self’s by having characteristics that are useful in a broad range of projects. The components should also be inexpensive, available and easy to get from several sources. They should be on every electronics designer, engineer, technician or electronics hobbyist stock, near the workbench. I divided this list by category, each main characteristics, is listed and there is a link to the datasheet.
+In this repository, I will try to maintain a list of the most common components in electronics. Specially, the ones that passed the test of time, the ones that distinguished themselves by having characteristics that are useful in a broad range of projects. The components should also be inexpensive, available and easy to get from several sources. They should be on every electronics designer, engineer, technician or electronics hobbyist stock, near the workbench. I divided this list by category, their main characteristics, is listed and there is a link to the datasheet.
 
 # List of components
 
 ## Resistors
 
-* You can buy them in kits with all series values, but the most common values of 1/4 Watts are 220, 470, 1k, 4.7k, 10k, 100k, 1M.<br>
-  **220** to light well a LED.<br>
-  **470** because it limits the current to approximately ~1mA at 5V.<br>
-  **1k** if a strong pull-up is needed, or to light a LED without too much current.<br>
-  **4.7k** a medium value that with 10K divides a 5V into ~3.3V (and that’s nice for micro-controllers).<br>
-  **10k** is used in a generic pull up.<br>
-  **100k** is used in very light voltage divider, or to give just a faith DC voltage bias to an OpAmp, that will be raided by a faith AC signal.<br>
-  **1M** is used in piezo discs (low current speaker).
+* You can buy them in kits with all series values, but the most common values of 1/4 Watts, 5 % or 1 % are:<br>
+  **10**   - To limit current at the output of OpAmps.<br>
+  **47**   -<br>
+  **56**   - Some white LEDs at 5V.<br>
+  **82**   - Some white LEDs and blue LEDs at 5V.<br>
+  **100**  - To limit current in inputs.<br>
+  **120**  - Yellow, green and orange LEDs at 5V.<br>
+  **150**  - Red LEDs at 5V.<br>
+  **220**  - Nice generic value to play safe for a LEDs of any color at 5V, good fot infra-red LEDs at 5V.<br>
+  **330**  - Resistor for collector/emitter.<br>
+  **390**  - Resistor for collector/emitter.<br>
+  **470**  - Resistor for collector/emitter, strong pull-up for I2C lines. And because it limits the current to approximately ~1mA at 5V.<br>
+  **560**  - Resistor for collector/emitter, strong pull-up for I2C lines.<br>
+  **1K**   - Low current/low bright for LEDs of any color, voltage dividers, inputs protection, if a strong pull-up is needed.<br>
+  **1.2K** - Voltage dividers.<br>
+  **1.5K** - Voltage dividers.<br>
+  **2.2K** - Bias for circuits, voltage dividers.<br>
+  **3.3K** - Bias for circuits, voltage dividers.<br>
+  **3.9K** - Bias for circuits, voltage dividers.<br>
+  **4.7K** - Bias for circuits, voltage dividers. A medium value that with 10K divides a 5V into ~3.3V (and that’s nice for micro-controllers).<br>
+  **5.6K** - Bias for circuits, voltage dividers.<br>
+  **10K**  - Pull-ups/Pull-downs, resistors for collector.<br>
+  **22K**  - Pull-ups/Pull-downs, pull-ups of reset pin in micro-controllers.<br>
+  **33K**  - Pull-ups of reset pin in micro-controllers.<br>
+  **47K**  -<br>
+  **100K** - Gain control in OpAmps and discrete amplifiers, pull-downs in analog circuits.<br>
+  **330K** - Gain control in OpAmps and discrete amplifiers, pull-downs in analog circuits.<br>
+  **470K** - Gain control in OpAmps and discrete amplifiers, pull-downs in analog circuits.<br>
+  **1M**   - Gain control in OpAmps and discrete amplifiers, pull-downs in analog circuits, is used in piezo discs (low current speaker).<br>
+  **2.2M** - Gain control in OpAmps and discrete amplifiers, pull-downs in analog circuits.<br>
+  Note: Some of this resistor applications info, come from "Kit Njay de Resistências 1/4W" and is used with permission.
 
 
 ## Capacitors
 
 * The most common values are:<br>
-  **100nF** (generic bypass)<br>
-  **4.7uF** (also used as bypass capacitor in parallel with 100nF)<br>
-  **10uF**  (higher capacitance, very common in smd)<br>
-  **100uF** polarized (for filtering near voltage regulator)
+  **For small pF** - You can use a DIY solution, two isolated and twisted wires cut to length.<br>
+  **For small variable value** - You can use a trimmer cap.<br>
+  **100nF**  - Generic bypass.<br>
+  **4.7uF**  - Also used as bypass capacitor in parallel with 100nF.<br>
+  **10uF**   - Higher capacitance, very common in smd.<br>
+  **100uF**  - Polarized, for filtering near voltage regulator.<br>
+  **1000uF** - Polarized, to smooth the ripple in mains power supplies.<br>
+  **2200uF** - Polarized, to smooth the ripple in mains power supplies.<br>
+  **For dynamic value**  - You can use a DC bias Varicap diode or use a generic diode as a Varicap.<br>
+  [Please see this page on VariCaps](http://ftp.hanssummers.com/varicap.html)<br> 
+  **DIY Capacitors** - [Home made capacitors](https://www.youtube.com/watch?v=GveI9gXIsHw&list=PLFsZmHTZL-zmfXxstlxuJgRE9bOGobEVu)
 
+## Inductors
+
+* Those can have air cores or cores from other materials. They are more specific so I don't list more used values of commercial ones here, I will only say that for high frequency application you can make your owns.<br>
+  **DIY inductors** - [Home made inductors](https://www.youtube.com/watch?v=awyLYgu6ODM)
 
 ## LED’s
 
-* Many colors: **red**, **yellow**, **green**, **blue**, **white**, infra-red, Ultra-Violette (not very common), **RGB LEDs**.<br>
+* Many colors: **red**, **yellow**, **green**, **orange**, **blue**, **white**, infra-red, Ultra-Violet (not very common), **RGB LEDs**.<br>
   Most common came in 3mm, 5mm and SMD packages. <br>
   Each color has it’s own forward voltage and should always be used with a current limiting resistor.<br>
   [They can also be used as VariCaps diodes](http://www.hanssummers.com/varicap/varicapled.html) 
