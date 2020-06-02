@@ -22,7 +22,7 @@ In this repository, I will try to maintain a list of the most common components 
 
 * **1N5822** - Can be used as a great range VariCAP, Schottky diode, 40V, 3A. <br>
   [Please see this page on VariCaps](http://ftp.hanssummers.com/varicap.html) <br>
-  [Please see the images with the graph and table i this page](http://ftp.hanssummers.com/varicap/varicapdiode.html) <br>
+  [Please see the images with the graph and table in this page](http://ftp.hanssummers.com/varicap/varicapdiode.html) <br>
   [Datasheet](https://pt.mouser.com/datasheet/2/389/1n5822-1848813.pdf)
 
 * **BAT85S** - Schottky diode, 30V, 200mA.<br>
@@ -134,7 +134,7 @@ In this repository, I will try to maintain a list of the most common components 
 * **MCP6072T-E/SN** - Microchip, double, cheap, bandwidth 1.2 MHz, offset voltage =  150 uV, SOIC-8 SMD, 19nV/sqrt Hz.<br>
   [Datasheet](https://pt.mouser.com/ProductDetail/Microchip-Technology/MCP6072T-E-SN?qs=WqWCsLCZBkqxem6AyHcpJg%3D%3D)
  
-* **TC7650CPA** - single, chopper, Single-Supply or dual supply 5V, not rail to rail + 0.3V lower limit  - 0.3V upper limit, zero offset chopper stabilized operational amplifier, low input  noise offset voltage 2.0 uV pp bandwidth 2MHz.<br>
+* **TC7650CPA** - single, chopper, single-supply or dual supply 5V, not rail to rail + 0.3V lower limit  - 0.3V upper limit, zero offset chopper stabilized operational amplifier, low input  noise offset voltage 2.0 uV pp bandwidth 2MHz.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/268/21463b-40504.pdf)
 
 
