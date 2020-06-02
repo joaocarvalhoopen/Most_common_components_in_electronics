@@ -74,6 +74,12 @@ In this repository, I will try to maintain a list of the most common components 
 
 * TODO: Add high power BJT's.
 
+* **ULN2003A** - chip, seven darlington arrays, output current 500 mA, output voltage 50 V, integrated suppression diodes for inductive loads, TTL/CMOS compatible inputs. <br>
+  [Datasheet](https://pt.mouser.com/datasheet/2/389/uln2001-1852702.pdf)
+
+* **ULN2803A** - chip, eight darlington transistors with common emitters, output current to 500 mA, output voltage 50 V, integral suppression diodes, TTL/CMOS compatible inputs.<br>
+  [Datasheet](https://pt.mouser.com/datasheet/2/389/uln2801a-1852595.pdf) 
+
 
 ## JFet Transistors 
 
