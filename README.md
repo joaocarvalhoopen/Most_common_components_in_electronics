@@ -10,7 +10,7 @@ In this repository, I will try to maintain a list of the most common components 
 
 ## Resistors
 
-* The most common values of 1/4 Watts are 220, 470, 1k, 4.7k, 10k, 100k, 1M.<br>
+* You can buy them in kits with all series values, but the most common values of 1/4 Watts are 220, 470, 1k, 4.7k, 10k, 100k, 1M.<br>
   220 to light well a LED.<br>
   470 because it limits the current to approximately ~1mA at 5V.<br>
   1k if a strong pull-up is needed, or to light a LED without too much current.<br>
