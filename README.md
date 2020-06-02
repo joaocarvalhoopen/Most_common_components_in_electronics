@@ -14,7 +14,7 @@ In this repository, I will try to maintain a list of the most common components 
 * **1N4148** - Signal diode, 100V, 200mA. <br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/1N914-D-1801484.pdf)
 
-* **1N4001** to **1N4007** - Rectifing diodes, 1 A, (1 - 50V, 2 - 100V, 3 - 200V, 4 - 400V, 5 - 600V, 6 - 800V, 7 - 1000V).<br>
+* **1N4001** to **1N4007** - Rectifying diodes, 1 A, (1 - 50V, 2 - 100V, 3 - 200V, 4 - 400V, 5 - 600V, 6 - 800V, 7 - 1000V).<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/1N4001-D-1801424.pdf)
 
 * **1N5817** - Schottky diode, 20V, 1A, Fast switching.<br>
@@ -43,28 +43,28 @@ In this repository, I will try to maintain a list of the most common components 
 
 ## BJT Transistors
 
-* **2N3904** - BJT, npn, 40V, 200 mA, 300 Mhz, 625 mW, noise figure 5db, signal.<br>
+* **2N3904** - BJT, npn, 40V, 200 mA, bandwidth 300 Mhz, 625 mW, noise figure 5db, signal.<br>
   [2N3904 wikipedia](https://en.wikipedia.org/wiki/2N3904)<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/2N3904-D-1801586.pdf)
 
-* **2N3906** - BJT, pnp, -40 V, -200mA, 250 MHz, 625 mW, noise figure 4db,  signal, Complementary Pair of the 2N3904.<br>
+* **2N3906** - BJT, pnp, -40 V, -200mA, 250 MHz, 625 mW, noise figure 4db,  signal, complementary Pair of the 2N3904.<br>
   [2N3906 wikipedia](https://en.wikipedia.org/wiki/2N3906)<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/2N3906-D-1801672.pdf)
 
-* **BC549C** - BJT low noise, npn, high beta 420 to 800, noise figure 1.2 dB, 30V, 100mA.<br>
+* **BC549C** - BJT low noise, npn, high beta 420 to 800, noise figure 1.2 dB, 30V, 100mA, bandwidth 300MHz, 500mW.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/BC550-D-1802078.pdf)
 
-* **BC559C** - BJT low noise, pnp, beta 420 to 800, low noise, noise figure 1.2 dB, -30V, -100mA, Bandwidth 150MHz, 500mW. Complementary pair of BC549C.<br>
+* **BC559C** - BJT low noise, pnp, beta 420 to 800, low noise, noise figure 1.2 dB, -30V, -100mA, bandwidth 150MHz, 500mW, complementary pair of BC549C.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/BC556BTA-D-1802030.pdf)
 
-* **BD135** - BJT, npn, beta 100, 45 V, 1.5 A, 1.25 W, Audio Amplifier.<br>
+* **BD135** - BJT, npn, beta 100, 45 V, 1.5 A, 1.25 W, audio amplifier.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/389/bd135-1848980.pdf)
 
-* **BD136** - BJT, pnp, beta 100, -45 V, -1.5 A, 1.25 W, Audio amplifier, Complementary pair of BD135.<br>
+* **BD136** - BJT, pnp, beta 100, -45 V, -1.5 A, 1.25 W, audio amplifier, complementary pair of BD135.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/389/bd135-1848980.pdf)
 
 * **KSP10** - This is a replacement for the good old **BF199**. <br> 
-  BJT, npn, RF transistor, bandwith 650 MHz to 1GHz, 25V, beta 60,  60 mA, 350 mW.<br>
+  BJT, npn, RF transistor, bandwidth 650 MHz to 1GHz, 25V, beta 60,  60 mA, 350 mW.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/KSP10-D-1810572.pdf)
 
 * **2N6027** - This is a replacement for the good old **2N26469**. <br> 
@@ -95,7 +95,7 @@ In this repository, I will try to maintain a list of the most common components 
 * **DMG1012UW-7** - MOSFET N-Channel, 20V, 1A, SOT-323, SMD.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/115/ds31859-90313.pdf)
  
-* **IRF3205PBF** - N-MOS, Power Mosfet 150 W, 55V, 110A, 8mOhm, 97.3nC.<br>
+* **IRF3205PBF** - N-MOS, Power MOSFET 150 W, 55V, 110A, 8mOhm, 97.3nC.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/196/irf3205pbf-1732530.pdf)
 
 
@@ -119,22 +119,22 @@ In this repository, I will try to maintain a list of the most common components 
 * **LM358** - Double, cheap, 3V to 36V, Bandwidth 1.2 MHz, Voffset 3mV, noise figure 40nV/sqrt Hz, not rail to rail.<br>
   [Datasheet](http://www.ti.com/lit/ds/symlink/lm358.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1591004748869)
 
-* **TL072** - Double, JFET inputs, cheap, Low Total Harmonic Distortion 0.003%, Low noise 18 nV/sqrt Hz, not rail to rail, used in high quality audio.<br>
+* **TL072** - Double, JFET inputs, cheap, low THD - Total Harmonic Distortion 0.003%, Low noise 18 nV/sqrt Hz, not rail to rail, used in high quality audio.<br>
   [Datasheet](http://www.ti.com/lit/ds/symlink/tl072.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1591005562273)
 
-* **NE5532** - Low noise, cheap, supply min +-5V to +-15V, not rail to rail, 10 MHz, Voffset 4mV, 5 nV/sqrt Hz, Low Total Harmonic Distortion, used in high quality audio.<br>
+* **NE5532** - Low noise, cheap, supply min +-5V to +-15V, not rail to rail, 10 MHz, Voffset 4mV, 5 nV/sqrt Hz, low THD - Total Harmonic Distortion, used in high quality audio.<br>
   [Datasheet](http://www.ti.com/lit/ds/symlink/ne5532a.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1591006447562)
 
-* **MCP6004-I-P** - Microchip, quad, cheap, Rail-to-Rail, Single Supply 3.3V to 5V, Bandwidth 1MHz, offset voltage = 4.5 mV, noise figure 28nV/sqrt Hz.<br>
+* **MCP6004-I-P** - Microchip, quad, cheap, rail-to-rail, single supply 3.3V to 5V, bandwidth 1MHz, offset voltage = 4.5 mV, noise figure 28nV/sqrt Hz.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/268/21733j-740845.pdf)
 
-* **MCP6024-E/P** - Microchip, quad, Rail-to-Rail, Single Supply 3.3V to 5V, Bandwidth 10MHz, offset voltage = +-0.250 mV, Extended temperature, noise figure 8.7nV/sqrt Hz.<br>
+* **MCP6024-E/P** - Microchip, quad, rail-to-rail, single supply 3.3V to 5V, bandwidth 10MHz, offset voltage = +-0.250 mV, extended temperature, noise figure 8.7nV/sqrt Hz.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/268/21685b-25979.pdf)
 
-* **MCP6072T-E/SN** - Microchip, double, cheap, Bandwidth 1.2 MHz, offset voltage =  150 uV, SOIC-8 SMD, 19nV/sqrt Hz.<br>
+* **MCP6072T-E/SN** - Microchip, double, cheap, bandwidth 1.2 MHz, offset voltage =  150 uV, SOIC-8 SMD, 19nV/sqrt Hz.<br>
   [Datasheet](https://pt.mouser.com/ProductDetail/Microchip-Technology/MCP6072T-E-SN?qs=WqWCsLCZBkqxem6AyHcpJg%3D%3D)
  
-* **TC7650CPA** - Single, Single-Supply or Dual supply 5V, not rail to rail + 0.3V lower limit  - 0.3V upper limit, Zero offset Chopper Stabilized Operational Amplifier, Low Input  Noise offset Voltage: 2.0 uV pp BandWith 2MHz.<br>
+* **TC7650CPA** - single, chopper, Single-Supply or dual supply 5V, not rail to rail + 0.3V lower limit  - 0.3V upper limit, zero offset chopper stabilized operational amplifier, low input  noise offset voltage 2.0 uV pp bandwidth 2MHz.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/268/21463b-40504.pdf)
 
 
@@ -155,16 +155,16 @@ In this repository, I will try to maintain a list of the most common components 
 
 ## Voltage regulators
 
-* **LD1117V33** - Voltage regulator ST, 3.3 V, 0.8A, TO-220-3 Input voltage has to be min 1V upper.<br>
+* **LD1117V33** - Voltage regulator ST, 3.3 V, 0.8A, TO-220-3, input voltage has to be min 1V upper.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/389/ld1117-1849389.pdf)
 
-* **LD1117V50** - Voltage regulator ST, 5 V, 0.8A, TO-220-3 Input voltage has to be min 1V upper.<br>
+* **LD1117V50** - Voltage regulator ST, 5 V, 0.8A, TO-220-3, input voltage has to be min 1V upper.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/389/ld1117-1849389.pdf)
 
-* **LD1117** - Adjustable voltage regulator ST, 0.8A TO-220-3 Input voltage has to be min 1V upper.<br>
+* **LD1117** - Adjustable voltage regulator ST, 0.8A TO-220-3, input voltage has to be min 1V upper.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/389/ld1117-1849389.pdf)
 
-* **LD1117S33CTR** - Voltage regulator LDO 3.3V, 0.8A, Positive, SMD, Package SOT-223-3.<br>
+* **LD1117S33CTR** - Voltage regulator LDO 3.3V, 0.8A, positive, SMD, package SOT-223-3.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/389/ld1117-1849389.pdf)
  
 * **LM78xx ICs**, 1.5 A, including 7805 (5 V), 7806 (6 V), 7808 (8 V), 7809 (9 V), 7810 (10 V), 7812 (12 V), 7815 (15 V), 7818 (18 V), and 7824 (24 V).<br>
@@ -179,16 +179,16 @@ In this repository, I will try to maintain a list of the most common components 
 
 ## Special components
 
-* **LM35DZ** - Temperature sensor, Linear + 10-mV/C scale factor, 0.5 C ensured accuracy, −55 C to 150 C range.<br>
+* **LM35DZ** - Temperature sensor, linear + 10-mV/C scale factor, 0.5 C ensured accuracy, −55 C to 150 C range.<br>
  [Datasheet](http://www.ti.com/lit/ds/symlink/lm35.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1591007837552)
 
-* **L293D** - Two H bridges, supply up to 36 V, 600 mA, 1.2A Peak.<br>
+* **L293D** - Two H bridges, supply up to 36 V, 600 mA, 1.2A peak.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/389/l293d-1849134.pdf)
 
-* **TL431ACZ** - Voltage reference, Adjustable output voltage 2.5 to 36 V, sink from 1 to 100mA, 1% and 2% voltage precision.<br>
+* **TL431ACZ** - Voltage reference, adjustable output voltage 2.5 to 36 V, sink from 1 to 100mA, 1% and 2% voltage precision.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/389/tl431-1852462.pdf)
 
-* **LM386** - Audio amplifier Class A-B, Wide Supply Voltage Range 4 V–12 V or 5 V–18 V, Low Distortion 0.2%, Voltage Gains from 20 to 200, 20 to 700 mW.<br>
+* **LM386** - Audio amplifier class A-B, wide supply voltage range 4 V–12 V or 5 V–18 V, low distortion 0.2%, voltage gains from 20 to 200, 20 to 700 mW.<br>
   [Datasheet](http://www.ti.com/lit/ds/symlink/lm386.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1591008261226)
  
 * **Ferrite bead 1-1624117-6**, 600R@100MHz +/-25% 200mA  package 0805
