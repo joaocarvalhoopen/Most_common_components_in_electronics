@@ -40,21 +40,23 @@ In this repository, I will try to maintain a list of the most common components 
   **470K** - Gain control in OpAmps and discrete amplifiers, pull-downs in analog circuits.<br>
   **1M**   - Gain control in OpAmps and discrete amplifiers, pull-downs in analog circuits, is used in piezo discs (low current speaker).<br>
   **2.2M** - Gain control in OpAmps and discrete amplifiers, pull-downs in analog circuits.<br>
-  Note: Some of this resistor applications info, come from "Kit Njay de Resistências 1/4W" and is used with permission.
+  Note: Many of those resistors application info, come from "Kit Njay de Resistências 1/4W" and is used with permission.
 
 
 ## Capacitors
 
 * The most common values are:<br>
-  **For small pF** - You can use a DIY solution, two isolated and twisted wires cut to length.<br>
-  **For small variable value** - You can use a trimmer cap.<br>
   **100nF**  - Generic bypass.<br>
   **4.7uF**  - Also used as bypass capacitor in parallel with 100nF.<br>
   **10uF**   - Higher capacitance, very common in smd.<br>
   **100uF**  - Polarized, for filtering near voltage regulator.<br>
   **1000uF** - Polarized, to smooth the ripple in mains power supplies.<br>
-  **2200uF** - Polarized, to smooth the ripple in mains power supplies.<br>
-  **For dynamic value**  - You can use a DC bias Varicap diode or use a generic diode as a Varicap.<br>
+  **2200uF** - Polarized, to smooth the ripple in mains power supplies.
+
+* Others types: <br>
+  **For small pF** - You can use a DIY solution, two isolated and twisted wires cut to length.<br>
+  **For small variable value** - You can use a trimmer cap.<br>
+  **For dynamic value** - You can use a DC bias Varicap diode or use a generic diode as a Varicap.<br>
   [Please see this page on VariCaps](http://ftp.hanssummers.com/varicap.html)<br> 
   **DIY Capacitors** - [Home made capacitors](https://www.youtube.com/watch?v=GveI9gXIsHw&list=PLFsZmHTZL-zmfXxstlxuJgRE9bOGobEVu)
 
