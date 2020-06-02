@@ -11,27 +11,27 @@ In this repository, I will try to maintain a list of the most common components 
 ## Resistors
 
 * You can buy them in kits with all series values, but the most common values of 1/4 Watts are 220, 470, 1k, 4.7k, 10k, 100k, 1M.<br>
-  220 to light well a LED.<br>
-  470 because it limits the current to approximately ~1mA at 5V.<br>
-  1k if a strong pull-up is needed, or to light a LED without too much current.<br>
-  4.7k a medium value that with 10K divides a 5V into ~3.3V (and that’s nice for micro-controllers).<br>
-  10k is used in a generic pull up.<br>
-  100k is used in very light voltage divider, or to give just a faith DC voltage bias to an OpAmp, that will be raided by a faith AC signal.<br>
-  1M is used in piezo discs (low current speaker).
+  **220** to light well a LED.<br>
+  **470** because it limits the current to approximately ~1mA at 5V.<br>
+  **1k** if a strong pull-up is needed, or to light a LED without too much current.<br>
+  **4.7k** a medium value that with 10K divides a 5V into ~3.3V (and that’s nice for micro-controllers).<br>
+  **10k** is used in a generic pull up.<br>
+  **100k** is used in very light voltage divider, or to give just a faith DC voltage bias to an OpAmp, that will be raided by a faith AC signal.<br>
+  **1M** is used in piezo discs (low current speaker).
 
 
 ## Capacitors
 
 * The most common values are:<br>
-  100nF (generic bypass)<br>
-  4.7uF (also used as bypass capacitor in parallel with 100nF)<br>
-  10uF  (higher capacitance, very common in smd)<br>
-  100uF polarized (for filtering near voltage regulator)
+  **100nF** (generic bypass)<br>
+  **4.7uF** (also used as bypass capacitor in parallel with 100nF)<br>
+  **10uF**  (higher capacitance, very common in smd)<br>
+  **100uF** polarized (for filtering near voltage regulator)
 
 
 ## LED’s
 
-* Many colors: red, yellow, green, blue, white, Infrared, Ultra-Violette (not very common), RGB LEDS.<br>
+* Many colors: **red**, **yellow**, **green**, **blue**, **white**, infra-red, Ultra-Violette (not very common), **RGB LEDs**.<br>
   Most common came in 3mm, 5mm and SMD packages. <br>
   Each color has it’s own forward voltage and should always be used with a current limiting resistor.<br>
   [They can also be used as VariCaps diodes](http://www.hanssummers.com/varicap/varicapled.html) 
