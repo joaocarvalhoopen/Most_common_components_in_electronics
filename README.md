@@ -75,7 +75,7 @@ In this repository, I will try to maintain a list of the most common components 
 
 ## Diodes
 
-* **1N4148** - Signal diode, 100V, 200mA. <br>
+* **1N4148** - Signal diode, 100V, 200mA. Note: At low voltages 1N5917/8/9 are equivalent to 1N4148, 1N400x.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/1N914-D-1801484.pdf)
 
 * **1N4001** to **1N4007** - Rectifying diodes, 1 A, (1 - 50V, 2 - 100V, 3 - 200V, 4 - 400V, 5 - 600V, 6 - 800V, 7 - 1000V).<br>
@@ -89,7 +89,7 @@ In this repository, I will try to maintain a list of the most common components 
   [Please see the images with the graph and table in this page](http://ftp.hanssummers.com/varicap/varicapdiode.html) <br>
   [Datasheet](https://pt.mouser.com/datasheet/2/389/1n5822-1848813.pdf)
 
-* **BAT85S** - Schottky diode, 30V, 200mA.<br>
+* **BAT85S** - Schottky diode, 30V, 200mA. Equivalent to BAT54.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/427/bat85s-1767722.pdf)
 
 * **BZX79B3V3** - Zener diode, 3.3V, 1/2W, 2%.<br>
@@ -107,11 +107,11 @@ In this repository, I will try to maintain a list of the most common components 
 
 ## BJT Transistors
 
-* **2N3904** - BJT, npn, 40V, 200 mA, bandwidth 300 Mhz, 625 mW, noise figure 5db, signal.<br>
+* **2N3904** - BJT, **generic**, npn, 40V, 200 mA, bandwidth 300 Mhz, 625 mW, noise figure 5db, signal.<br>
   [2N3904 wikipedia](https://en.wikipedia.org/wiki/2N3904)<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/2N3904-D-1801586.pdf)
 
-* **2N3906** - BJT, pnp, -40 V, -200mA, 250 MHz, 625 mW, noise figure 4db,  signal, complementary Pair of the 2N3904.<br>
+* **2N3906** - BJT, **generic**, pnp, -40 V, -200mA, 250 MHz, 625 mW, noise figure 4db,  signal, complementary Pair of the 2N3904.<br>
   [2N3906 wikipedia](https://en.wikipedia.org/wiki/2N3906)<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/2N3906-D-1801672.pdf)
 
@@ -123,36 +123,53 @@ In this repository, I will try to maintain a list of the most common components 
   Terminating with x for each beta range: A - 110 to 220, B - 200 to 450, C - 420 to 800.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/BC556BTA-D-1802030.pdf)
 
-* **BC549C** - BJT low noise, npn, high beta 420 to 800, noise figure 1.2 dB, 30V, 100mA, bandwidth 300MHz, 500mW.<br>
+* **BC549C** - BJT, **low noise**, npn, high beta 420 to 800, noise figure 1.2 dB, 30V, 100mA, bandwidth 300MHz, 500mW.<br>
   Terminating with x for each beta range: A - 110 to 220, B - 200 to 450, C - 420 to 800.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/BC550-D-1802078.pdf)
 
-* **BC559C** - BJT low noise, pnp, beta 420 to 800, low noise, noise figure 1.2 dB, -30V, -100mA, bandwidth 150MHz, 500mW, complementary pair of BC549C.<br>
+* **BC559C** - BJT, **low noise**, pnp, beta 420 to 800, low noise, noise figure 1.2 dB, -30V, -100mA, bandwidth 150MHz, 500mW, complementary pair of BC549C.<br>
   Terminating with x for each beta range: A - 110 to 220, B - 200 to 450, C - 420 to 800.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/BC556BTA-D-1802030.pdf)
 
-* **BD135** - BJT, npn, beta 100, 45 V, 1.5 A, 1.25 W, audio amplifier.<br>
+* **BD135** - BJT, npn, **medium power**, beta 100, 45 V, 1.5 A, 1.25 W, audio amplifier.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/389/bd135-1848980.pdf)
 
-* **BD136** - BJT, pnp, beta 100, -45 V, -1.5 A, 1.25 W, audio amplifier, complementary pair of BD135.<br>
+* **BD136** - BJT, pnp, **medium power**, beta 100, -45 V, -1.5 A, 1.25 W, audio amplifier, complementary pair of BD135.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/389/bd135-1848980.pdf)
 
 * **KSP10** - This is a replacement for the good old **BF199**. <br> 
-  BJT, npn, RF transistor, bandwidth 650 MHz to 1GHz, 25V, beta 60,  60 mA, 350 mW.<br>
+  BJT, npn, **RF transistor**, bandwidth 650 MHz to 1GHz, 25V, beta 60,  60 mA, 350 mW.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/KSP10-D-1810572.pdf)
+
+* **TIP31CG** - BJT, **high power**, npn, 100 V, 3 A, 40 W, 3 MHz, beta 20.<br>
+  [Datasheet](https://pt.mouser.com/datasheet/2/308/TIP31A-D-1814956.pdf)
+
+* **TIP32CG** - BJT, **high power**, pnp, -100 V, -3 A, 40 W, 3 MHz, beta 20, complementary pair of TIP31CG.<br>
+  [Datasheet](https://pt.mouser.com/datasheet/2/308/TIP31A-D-1814956.pdf)
+
+* **TIP41CG** - BJT, **high power**, npn, 100 V, 6 A, 65 W, 3 MHz, beta 20.<br>
+  [Datasheet](https://pt.mouser.com/datasheet/2/308/TIP41A-D-1815006.pdf)
+
+* **TIP42CG** - BJT, **high power**, pnp, -100 V, -6 A, 65 W, 3 MHz, beta 20, complementary pair of TIP41CG.<br>
+  [Datasheet](https://pt.mouser.com/datasheet/2/308/TIP41A-D-1815006.pdf)
+
+* **TIP122** - BJT, **darlington high power**, npn, 100 V, 5 A, 65 W, beta min 1000, TO220. <br>
+  [Datasheet](https://pt.mouser.com/datasheet/2/389/tip120-1852367.pdf)
+
+* **TIP127** - BJT, **darlington high power**, pnp, -100 V, -5 A, 65 W, beta min 1000, TO220, complementary pair of TIP122.<br>
+  [Datasheet](https://pt.mouser.com/datasheet/2/389/tip120-1852367.pdf)
 
 * **2N6027** - This is a replacement for the good old **2N26469**. <br> 
   **PUT - Programmable Unijunction Transistor**, 40 V, 300 mW.<br>
   This is a component that has a "negative resistance" zone. The 2N2646 was used in oscillators with output having "low impedance", that is, only with one "transistor", you could make an oscillator that drives directly a low power speaker. <br>
   [Datasheet](https://pt.mouser.com/datasheet/2/308/2N6027-D-1801510.pdf)
 
-* TODO: Add high power BJT's.
-
 * **ULN2003A** - chip, seven darlington arrays, output current 500 mA, output voltage 50 V, integrated suppression diodes for inductive loads, TTL/CMOS compatible inputs. <br>
   [Datasheet](https://pt.mouser.com/datasheet/2/389/uln2001-1852702.pdf)
 
 * **ULN2803A** - chip, eight darlington transistors with common emitters, output current to 500 mA, output voltage 50 V, integral suppression diodes, TTL/CMOS compatible inputs.<br>
   [Datasheet](https://pt.mouser.com/datasheet/2/389/uln2801a-1852595.pdf) 
+
 
 
 ## JFet Transistors 
