@@ -12,7 +12,7 @@ In this repository, I will try to maintain a list of the most common components 
 
 * You can buy them in kits with all series values, but the most common values of 1/4 Watts, 5 % or 1 % are:<br>
   **10**   - To limit current at the output of OpAmps.<br>
-  **47**   -<br>
+  **47**   - Generic use.<br>
   **56**   - Some white LEDs at 5V.<br>
   **82**   - Some white LEDs and blue LEDs at 5V.<br>
   **100**  - To limit current in inputs.<br>
@@ -34,7 +34,7 @@ In this repository, I will try to maintain a list of the most common components 
   **10K**  - Pull-ups/Pull-downs, resistors for collector.<br>
   **22K**  - Pull-ups/Pull-downs, pull-ups of reset pin in micro-controllers.<br>
   **33K**  - Pull-ups of reset pin in micro-controllers.<br>
-  **47K**  -<br>
+  **47K**  - Generic use.<br>
   **100K** - Gain control in OpAmps and discrete amplifiers, pull-downs in analog circuits.<br>
   **330K** - Gain control in OpAmps and discrete amplifiers, pull-downs in analog circuits.<br>
   **470K** - Gain control in OpAmps and discrete amplifiers, pull-downs in analog circuits.<br>
