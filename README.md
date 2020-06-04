@@ -196,6 +196,24 @@ In this repository, I will try to maintain a list of the most common components 
   [Datasheet](https://pt.mouser.com/datasheet/2/196/irf3205pbf-1732530.pdf)
 
 
+## IGBT Transistors
+
+* **STGF5H60DF** - 600 V, 5 A, 24 W.<br>
+  [Datasheet](https://pt.mouser.com/datasheet/2/389/stgb5h60df-1850797.pdf)
+ 
+* **STGP7NC60HD** - 600 V, 14 A, 25 W.<br>
+  [Datasheet](https://pt.mouser.com/datasheet/2/389/stgb7nc60hd-1850860.pdf)
+
+* **STGP40V60F** - 600 V, 40 A, 62.5 W.<br>
+  [Datasheet](https://pt.mouser.com/datasheet/2/389/stgb40v60f-1850655.pdf)
+
+* **IHW25N120E1** - 1200 V, 25 A, 231 W.<br>
+  [Datasheet](https://pt.mouser.com/datasheet/2/196/Infineon-IHW25N120E1-DataSheet-v02_01-EN-1731566.pdf)
+
+* **FGH80N60FD2** - 600 V, 40 A, 290 W.<br>
+  [Datasheet](https://pt.mouser.com/datasheet/2/308/FGH80N60FD2-D-1808869.pdf)
+
+
 ## Thyristors
 
 * **P0102DA** - SCR, 400 V, 0.8A, TO-92.<br>
