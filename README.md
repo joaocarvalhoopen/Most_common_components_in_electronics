@@ -18,7 +18,7 @@ In this repository, I will try to maintain a list of the most common components 
   **100**  - To limit current in inputs.<br>
   **120**  - Yellow, green and orange LEDs at 5V.<br>
   **150**  - Red LEDs at 5V.<br>
-  **220**  - Nice generic value to play safe for a LEDs of any color at 5V, good fot infra-red LEDs at 5V.<br>
+  **220**  - Nice generic value to play safe for a LEDs of any color at 5V, good for infra-red LEDs at 5V.<br>
   **330**  - Resistor for collector/emitter.<br>
   **390**  - Resistor for collector/emitter.<br>
   **470**  - Resistor for collector/emitter, strong pull-up for I2C lines. And because it limits the current to approximately ~1mA at 5V.<br>
@@ -313,6 +313,13 @@ Please, before choosing a component or using it, always check the specifications
 
 ## License
 This document is under the Creative Commons license.
+
+# All my other guides
+
+* The links to all my guides are in: <br>
+  **Guides on Linux - Programming - Embedded - Electronics - Aeronautics** <br>
+  [https://github.com/joaocarvalhoopen/Guides_Linux-Programming-Electronics-Aeronautics](https://github.com/joaocarvalhoopen/Guides_Linux-Programming-Electronics-Aeronautics)
+
 
 ## Have fun!
 Best regards, <br>
